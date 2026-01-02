@@ -1,3 +1,5 @@
+local HttpService = game:GetService("HttpService")
+
 local webhook = _G.webhook
 local prefix = "--[[@everyone]] "
 
@@ -50,3 +52,4 @@ local function SendFirstMessage(prefix)
 end
 
 SendFirstMessage(prefix)
+
